@@ -103,3 +103,17 @@ button:hover span{
 button:hover{
     border: none;
 }
+.content{
+    /* Target the main section */
+.c {
+    background-color: #808836; /* Replace with your desired background color */
+  }
+  
+  /* Target the heading within the center-text div */
+  .center-text h2 {
+    color: #333; /* Replace with your desired text color */
+    font-family: Arial, sans-serif; /* Replace with your desired font */
+    font-size: 24px; /* Adjust font size as needed */
+    text-align: center; /* Center the heading */
+  }
+}
