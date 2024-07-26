@@ -12,29 +12,38 @@
     text-decoration:dotted;
     color: #fff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
 
 }
 .navbar{
-    width: 85%;
+    width: 100%;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    background-color: #929c3a;
 
 
 
 }
+.navbar ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 .navbar ul li{
     list-style: none;
-    display: inline-block;
+    display:inline-block;
     margin: 0 20px;
-    position: relative;
+   
 }
 .navbar ul li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    position: relative;
 }
 .navbar ul li::after{
     content: '';
