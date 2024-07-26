@@ -111,10 +111,12 @@ button:hover{
 
 }
 .serv1 {
-    background-color: #a6af5d; /* Green color */
+    background-color: #ccd85ebd; /* Green color */
     height: 100%;
     width: 100%
 }
-#collection{
-    background-color: #808836;
+.f{
+    background-color: #ccd85ebd;
+    height: 100%;
+    width: 100%
 }
