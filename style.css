@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+}body{
+    background-color: #808836; /* Change this to your desired background color */
+    
 }
 .banner{
     width: 100%;
@@ -108,7 +111,9 @@ button:hover{
 
 }
 .serv1 {
-    background-color: #808836; /* Green color */
+    background-color: #a6af5d; /* Green color */
+    height: 100%;
+    width: 100%
 }
 #collection{
     background-color: #808836;
