@@ -129,24 +129,26 @@ button:hover{
     background-color: #ccd85ebd;
     height: 100%;
     width: 100% 
+    
 }
 .project_gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: center;
     gap: 20px; /* Distance between images */
     margin-top: 20px;
 }
 
 .project_card {
-    flex: 1 1 calc(33.333% - 20px); /* Three images per row, minus the gap */
-    max-width: calc(33.333% - 20px);
+    flex: 1 1 calc(33.333% - 50px); /* Three images per row, minus the gap */
+    max-width: calc(33.333% - 40px);
     box-sizing: border-box;
 }
 
 .project_img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
