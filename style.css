@@ -162,3 +162,19 @@ p {
     margin: 0;
     padding-bottom: 20px;
 }
+.project_card {
+    overflow: hidden;
+    position: relative;
+    width: 200px; /* Adjust according to your needs */
+  }
+  
+  .project_img {
+    transition: transform 0.4s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project_card:hover .project_img {
+    transform: scale(1.1);
+  }
+  
