@@ -3,7 +3,8 @@
     padding: 0;
     font-family: sans-serif;
 }body{
-    background-color: #808836; /* Change this to your desired background color */
+    background-color: #808836;
+    font-family:fantasy; /* Change this to your desired background color */
     
 }
 .banner{
@@ -26,6 +27,7 @@
     justify-content: space-between;
     position: fixed;
     background-color: #808836;
+    font-family:fantasy;
 
 }
 .navbar-nav li a {
@@ -33,10 +35,10 @@
     text-decoration: none;
     padding: 5px 5px;
     display: block;
+
 }
 .navbar-nav li a:hover {
     background-color: #f6d250c0;
-    transform-style:inherit;
 }
 .navbar ul li{
     list-style: none;
