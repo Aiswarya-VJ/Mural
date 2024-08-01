@@ -27,8 +27,16 @@
     position: fixed;
     background-color: #808836;
 
-
-
+}
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: block;
+}
+.navbar-nav li a:hover {
+    background-color: #f6d250c0;
+    transform-style:inherit;
 }
 .navbar ul li{
     list-style: none;
