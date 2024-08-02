@@ -208,44 +208,74 @@ p {
     transform: scale(1.2);
   }
   
-  .box {
-    border: 2px solid #ddd; /* Border color */
-    border-radius: 8px; /* Rounded corners */
-    padding: 16px; /* Space inside the box */
-    margin: 10px 0; /* Space between boxes */
-    background-color: #f9f9f9; /* Background color */
-    width: 300px; /* Width of the box */
-    height: 300px; /* Height of the box */
+  .contact-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: scale(1.05);
 }
 
 .icon {
-    font-size: 24px; /* Size of the icon */
-    margin-bottom: 10px; /* Space below the icon */
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-inputs {
-    width: 100%;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 90%;
+    font-size: 2em;
+    color: #333;
     margin-bottom: 10px;
 }
 
+.h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+
+.secondary-color {
+    color: #555;
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
 .btn1 {
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Button text color */
-    border: none; /* No border */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+    background-color: #555;
 }
