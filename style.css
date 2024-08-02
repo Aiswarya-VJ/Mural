@@ -282,8 +282,12 @@ p {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
 }
 
 .btn1:hover {
     background-color: #f6d250c0;
+}
+.contact-form{
+    padding: auto;;
 }
