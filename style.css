@@ -234,7 +234,7 @@ p {
 
 .contact-item:hover {
     transform: scale(1.05);
-    background-color: #707923;
+    background-color: #6c732d;
     box-shadow: 2px 2px 12px rgba(48, 45, 45, 0.895);
     
 }
