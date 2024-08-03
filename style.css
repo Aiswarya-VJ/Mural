@@ -234,6 +234,7 @@ p {
 
 .contact-item:hover {
     transform: scale(1.05);
+    background-color: #707923;
     box-shadow: 2px 2px 12px rgba(48, 45, 45, 0.895);
     
 }
@@ -289,6 +290,7 @@ p {
 
 .btn1:hover {
     background-color: #575d1c;
+    box-shadow: 2px 2px 12px rgba(48, 45, 45, 0.895);
     
 }
 .contact-form{
