@@ -225,7 +225,7 @@ p {
     margin: 10px;
     width: 220px;
     height: 200px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    
     background-color: #808836;
     transition: transform 0.3s ease;
     text-align: center; /* Center text within the box */
@@ -234,6 +234,8 @@ p {
 
 .contact-item:hover {
     transform: scale(1.05);
+    box-shadow: 2px 2px 12px rgba(48, 45, 45, 0.895);
+    
 }
 
 .icon {
@@ -286,7 +288,8 @@ p {
 }
 
 .btn1:hover {
-    background-color: #f6d250c0;
+    background-color: #575d1c;
+    
 }
 .contact-form{
     padding: auto;;
