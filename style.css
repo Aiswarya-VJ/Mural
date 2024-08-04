@@ -213,16 +213,17 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+    color: #fff;
 }
 .contact-form{
-    background-color: #575d1c;
+    background-color: #808836;
     color: #ffffff;
 }
 .contact-form input, 
 .contact-form textarea {
-    background-color: #808836; /* White background for input and textarea */
-    color: #fcfcfc; /* Black text color for input and textarea */
-    border: 1px solid #ccc; /* Border color */
+    background-color: #a4ae48; /* White background for input and textarea */
+    color: #ffffff; /* Black text color for input and textarea */
+    border: 1px solid #808836; /* Border color */
     border-radius: 4px; /* Rounded corners for input and textarea */
 }
   
@@ -231,13 +232,13 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid #808836;
+    border: 2px  #808836;
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
     width: 220px;
     height: 200px;
-    
+    color: #fff;
     
     background-color: #808836;
     transition: transform 0.3s ease;
@@ -248,7 +249,8 @@ p {
 .contact-item:hover {
     transform: scale(1.05);
     background-color: #6c732d;
-    box-shadow: 2px 2px 12px rgba(48, 45, 45, 0.895);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.895);
+    color: #fff;
     
 }
 
@@ -280,12 +282,14 @@ p {
 .contact-form {
     width: 100%;
     margin-top: 20px;
+    color: white;
 }
 
 .contact-inputs {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    color: #fff;
 }
 
 .w-100 {
