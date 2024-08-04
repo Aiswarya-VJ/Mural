@@ -186,7 +186,7 @@ p {
 .project_card {
     overflow: hidden;
     position: relative;
-    width: 100px; /* Adjust according to your needs */
+    width: 10px; /* Adjust according to your needs */
     border: 2px solid transparent;
   transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   text-align: center; /* Center text within the card */
@@ -221,7 +221,7 @@ p {
 }
 .contact-form input, 
 .contact-form textarea {
-    background-color: #a4ae48; /* White background for input and textarea */
+    background-color: #bbc469d6; /* White background for input and textarea */
     color: #ffffff; /* Black text color for input and textarea */
     border: 1px solid #808836; /* Border color */
     border-radius: 4px; /* Rounded corners for input and textarea */
@@ -232,7 +232,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px  #808836;
+    border: 2px solid #808836;
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
