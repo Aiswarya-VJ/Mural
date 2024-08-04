@@ -158,7 +158,7 @@ button:hover{
 
 .project_card {
     flex: 1 1 calc(33.333% - 40px); /* Three images per row, minus the gap */
-    box-sizing: border-box;
+  
     margin: 10px;
     padding: 10px;
     background: #f0f0f0;
