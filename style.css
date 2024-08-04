@@ -131,6 +131,9 @@ button:hover{
 }
 .col{
     padding: 50px 0;
+    background-color: #ccd85ebd;
+    
+    
 }
 .c{
     background-color: #ccd85ebd;
@@ -235,7 +238,7 @@ p {
 .contact-form input, 
 .contact-form textarea {
     background-color: #bbc469d6; /* White background for input and textarea */
-    color: #ffffff; /* Black text color for input and textarea */
+    color: #000000; /* Black text color for input and textarea */
     border: 1px solid #808836; /* Border color */
     border-radius: 4px; /* Rounded corners for input and textarea */
 }
