@@ -180,11 +180,11 @@ button:hover{
 }
 .project_content {
     text-align: center;
-        margin-top: 10px;
-        background-color: #808836;
+        margin-top: 5px;
+        background-color: #909a33d8;
         color: white;
         padding: 5px 10px;
-        border-radius: 5px;
+        border-radius: 10px;
         width: calc(100% - 20px); /* Adjust the width of the content to fit within the card */
         margin: 0 auto;
 }
