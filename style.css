@@ -169,6 +169,19 @@ button:hover{
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.project_content {
+    position:inherit;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #575d1cce;
+    color: white;
+    padding: 10px 10px;
+    border-radius: px;
+}
+.price {
+    margin: 0;
+}
 .banner{
     clear: both;
     overflow: auto;
