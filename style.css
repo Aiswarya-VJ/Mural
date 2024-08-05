@@ -251,6 +251,7 @@ button:hover{
         border-radius: 5px;
         width: calc(100% - 20px); /* Adjust the width of the content to fit within the card */
         margin: 0 auto;
+        margin-bottom: 10px;
 }
 .price {
     margin: 0;
