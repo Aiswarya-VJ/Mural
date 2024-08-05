@@ -119,6 +119,7 @@ button:hover{
     border: none;
 
 }
+
 .serv1 {
     background-color: #ccd85ebd; /* Green color */
     height: 100%;
@@ -142,13 +143,20 @@ button:hover{
 
 .p {
     flex: 1;
-    margin-left: 10px; /* Adjust as needed */
+    margin-left: 60%; /* Adjust as needed */
     text-align: right;
+    margin-right: 10%;
+    background-color:#97a044d5;
+    padding: 20px;
 }
 
-.rest {
+.r {
     flex: 1;
     text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color:#97a044d5;
+    padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -170,6 +178,8 @@ button:hover{
 .coll {
     background-color: #ccd85ebd; /* Set the desired background color */
     width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .banner {
@@ -177,17 +187,21 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    overflow: hidden;
 }
 .c{
     background-color: hsla(66, 61%, 61%, 0.741);
     height: 100%;
-    width: 100% 
+    width: 100% ;
+    overflow: hidden;
+    
 }
 .new{
     background-color: hsla(66, 61%, 61%, 0.741);
     height: 100%;
-    width: 100% 
+    width: 100% ;
     
 }
 .project_gallery {
@@ -288,10 +302,13 @@ p {
     flex-wrap: wrap;
     padding: 20px;
     color: #fff;
+    overflow: hidden;
+
 }
 .contact-form{
     background-color: #808836;
     color: #ffffff;
+    overflow: hidden;
 }
 .contact-form input, 
 .contact-form textarea {
@@ -299,6 +316,7 @@ p {
     color: #000000; /* Black text color for input and textarea */
     border: 1px solid #808836; /* Border color */
     border-radius: 4px; /* Rounded corners for input and textarea */
+    overflow: hidden;
 }
   
   .contact-item {
@@ -312,8 +330,6 @@ p {
     margin: 10px;
     width: 220px;
     height: 200px;
-    
-    
     background-color: #808836;
     transition: transform 0.3s ease;
     text-align: center; /* Center text within the box */
@@ -325,6 +341,7 @@ p {
     background-color: #6c732d;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.895);
     color: #fff;
+    overflow: hidden;
     
 }
 
@@ -351,6 +368,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
 }
 
 .contact-form {
