@@ -219,15 +219,17 @@ button:hover{
 
 .project_card {
     flex: 1 1 calc(25% - 10px); /* Three images per row, minus the gap */
-  
     margin: 10px;
+    margin-bottom: 5px;
     padding: 10px;
+    padding-bottom:20px;
     background: #f0f0f0;
     border-radius: 2px;
     overflow: hidden;
     position: relative;
     max-width: 250px;
     text-align: center;
+    
 }
 
 .project_img {
@@ -257,7 +259,7 @@ button:hover{
 @media (max-width: 600px) {
     .project_card {
         max-width: 100%;
-        flex: 1 1 100%;
+      
 }
 }
 .banner{
