@@ -32,7 +32,7 @@
 .navbar-nav li a {
     color: white;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 0px 10px;
     display: block;
     
 }
@@ -42,7 +42,7 @@
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
    
 }
 .navbar ul li a{
@@ -53,9 +53,6 @@
 }
 .navbar ul li::after{
     content: '';
-    height: 3px;
-    width: 0;
-    background: #009688;
     position: absolute;
     left: 0;
     bottom: -10px;
