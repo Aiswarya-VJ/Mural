@@ -303,6 +303,14 @@ p {
   .project_card:hover .project_img {
     transform: scale(1.2);
   }
+  .m{
+    flex: 1;
+    margin-left: 20%; /* Adjust as needed */
+    text-align: center;
+    margin-right: 20%;
+    background-color:#97a044d5;
+    padding: 20px;
+  }
   .contact-container {
     display: flex;
     justify-content: space-around;
