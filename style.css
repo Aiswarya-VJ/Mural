@@ -199,7 +199,7 @@ button:hover{
     
 }
 .c{
-    background-color: hsla(66, 61%, 61%, 0.741);
+    background-color: hwb(66 37% 15% / 0.741);
     height: 100%;
     width: 100% ;
     overflow:auto;
@@ -251,7 +251,7 @@ button:hover{
     text-align: center;
         margin-top: 10px;
         background-color: #909a33d8;
-        color: white;
+        color: rgb(213, 239, 162);
         padding: 5px 10px;
         border-radius: 5px;
         width: calc(100% - 20px); /* Adjust the width of the content to fit within the card */
