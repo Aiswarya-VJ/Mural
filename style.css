@@ -180,7 +180,7 @@ button:hover{
     background-color: #ccd85ebd; /* Set the desired background color */
     width: 100%;
     min-height: 100%;
-    overflow: hidden;
+    overflow:scroll;
     display: flex;
     flex-direction: column;
     
